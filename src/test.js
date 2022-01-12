@@ -5,5 +5,5 @@ import PLAYS from "./mock/plays.js";
 //console.log(statement(INVOICE[0], PLAYS));
 
 origin(INVOICE[0], PLAYS) === refactored(INVOICE[0], PLAYS)
-  ? console.log(true)
+  ? console.log("✅✅✅")
   : console.log(origin(INVOICE[0], PLAYS), refactored(INVOICE[0], PLAYS));

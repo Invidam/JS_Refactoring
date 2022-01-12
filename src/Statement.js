@@ -42,4 +42,4 @@ export function statement(invoice, plays) {
   return result;
 }
 
-console.log(statement(INVOICE[0], PLAYS));
+// console.log(statement(INVOICE[0], PLAYS));
