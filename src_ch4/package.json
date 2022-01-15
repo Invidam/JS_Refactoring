@@ -1,0 +1,18 @@
+{
+  "name": "src_ch4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Example.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  },
+  "type": "module"
+}
