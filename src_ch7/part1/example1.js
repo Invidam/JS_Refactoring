@@ -4,13 +4,6 @@ const getResult1 = () => {
   return `<h1>${organization.name}</h1>`;
 };
 
-const getResult2 = () => {
-  return `<h1>${getOrganization().name}</h1>`;
-};
-
-function getOrganization() {
-  return organ;
-}
 class Organization {
   constructor(data) {
     // this. = data;
@@ -30,6 +23,14 @@ class Organization {
   }
 }
 const organ = new Organization(organization);
+
+const getResult2 = () => {
+  return `<h1>${getOrganization().name}</h1>`;
+};
+
+function getOrganization() {
+  return organ;
+}
 
 const test = () => {
   if (getResult1() !== getResult2()) {
