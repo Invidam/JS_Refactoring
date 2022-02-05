@@ -1,8 +1,8 @@
-import { some as Before } from "./before-name.js";
-import { some as After } from "./after-name.js";
-
+import { result as Before } from "./before-Employee-v2.js";
+import { result as After } from "./after-Employee-v2.js";
+// prettier-ignore
 function test(before, after) {
-  before === after
+  before === after 
     ? console.log(true)
     : console.log(`${before}
 ${after}`);
@@ -13,5 +13,5 @@ function testByStringify(before, after) {
     ? console.log(true):console.log(`${before}
 ${after}`);
 }
-// test(Before(),After());
+test(Before(), After());
 //testByStringify(Before(),After());

@@ -1,5 +1,5 @@
-import { some as Before } from "./before-name.js";
-import { some as After } from "./after-name.js";
+import { numberOfMales as Before } from "./before-Person.js";
+import { numberOfMales as After } from "./after-Person.js";
 
 function test(before, after) {
   before === after
@@ -13,5 +13,6 @@ function testByStringify(before, after) {
     ? console.log(true):console.log(`${before}
 ${after}`);
 }
-// test(Before(),After());
+
+test(Before(), After());
 //testByStringify(Before(),After());

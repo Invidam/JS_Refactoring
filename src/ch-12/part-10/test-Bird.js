@@ -1,5 +1,5 @@
-import { some as Before } from "./before-name.js";
-import { some as After } from "./after-name.js";
+import { result as Before } from "./before-Bird.js";
+import { result as After } from "./after-Bird.js";
 
 function test(before, after) {
   before === after
@@ -10,8 +10,8 @@ ${after}`);
 // prettier-ignore
 function testByStringify(before, after) {
   JSON.stringify(before) === JSON.stringify(after)
-    ? console.log(true):console.log(`${before}
-${after}`);
+    ? console.log(true):console.log(`${JSON.stringify(before,0,"  ")}
+${JSON.stringify(after,0,"  ")}`);
 }
-// test(Before(),After());
+testByStringify(Before(), After());
 //testByStringify(Before(),After());
