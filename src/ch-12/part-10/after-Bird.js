@@ -1,7 +1,3 @@
-/**
- * 예시: 서브클래스가 여러 개일 때
- */
-
 function createBird(bird) {
   return new Bird(bird);
 }

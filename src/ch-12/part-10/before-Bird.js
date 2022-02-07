@@ -1,7 +1,3 @@
-/**
- * 예시: 서브클래스가 여러 개일 때
- */
-
 function createBird(bird) {
   switch (bird.type) {
     case "유럽 제비":
